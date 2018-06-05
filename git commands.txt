@@ -1,0 +1,19 @@
+git init
+git remote add origin git://github.com/cmcculloh/repo.git
+git fetch --all
+git pull origin master
+
+
+git clone git://github.com/cmcculloh/repo.git
+
+
+branc tracking or brach linked-------git branch -r
+
+Git clone means you are making a copy of the repository in your system. 
+Git fork means you are copying the repository to your Github account. 
+Git pull means you are fetching the last modified repository. Git push means you are returning the repository after modifying it.
+
+
+clone: copying the remote server repository to your local machine. pull: get new changes other have added to your local machine.. 
+This is the difference. Clone is generally used to get remote repo copy..
+ pull is used to view other team mates added code, if you are working in teams
