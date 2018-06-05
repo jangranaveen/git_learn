@@ -1,0 +1,13 @@
+steps for git and github
+1. make a repo at github and that repo is act as your server.
+2. make a local repo: first make a local folder in machine and open git bash here and then type git init command to create local repo in that folder and it will act as local repo  and it create .git file which is hidden by default
+3. now u have local and server repo and after u need to link this local repo to server :
+   use command - git remote add "url of server repo" and press enter
+this will link ur local and server repo.
+4. by default vi editor is attached with git tool, u can change it by using config command with global flag
+ git config --global  core.editor "location of ur editor u want to link"
+ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+ and also u can link any user which can perform push and pull operation using 
+git config --global core.user "user name"
+git config --global core.email "user emailid"
+5.
