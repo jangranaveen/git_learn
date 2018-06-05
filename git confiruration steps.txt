@@ -1,4 +1,4 @@
-steps for git and github
+steps for git and github and one extra file for commands
 1. make a repo at github and that repo is act as your server.
 2. make a local repo: first make a local folder in machine and open git bash here and then type git init command to create local repo in that folder and it will act as local repo  and it create .git file which is hidden by default
 3. now u have local and server repo and after u need to link this local repo to server :
